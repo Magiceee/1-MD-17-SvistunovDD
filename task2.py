@@ -1,0 +1,5 @@
+seatnumber = int(input("введите номер места в вагоне"))
+if seatnumber >= 37: print("боковое")
+else: print("купе")
+if seatnumber % 2 == 1: print("нижнее")
+else: print("верхнее")
