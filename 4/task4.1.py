@@ -4,6 +4,8 @@ def f1(x):
         print("число делится на 7")
     else:
         print("число не делится на 7")
+a = int(input("введите число"))
+print(f1(a))
 
 def f2(x):
     n2 = 200 / x
@@ -15,4 +17,6 @@ except ZeroDivisionError:
     print("деление на ноль невозможно")
 except ValueError:
     print("неверное значение числа")
+
+
 
